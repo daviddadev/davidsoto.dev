@@ -1,0 +1,81 @@
+body {
+  padding-top: 56px;
+}
+
+#intro-section #main-header {
+  color: white;
+  background: linear-gradient(-160deg, rgb(255, 216, 155) 0%, #19547b 100%);
+  padding: 40px 10px;
+}
+
+@media (min-width: 576px) {
+  #intro-section #main-header {
+    color: white;
+    background: linear-gradient(-160deg, #ffd89b 0%, rgb(25, 84, 123) 100%);
+    padding: 120px 10px;
+  }
+}
+
+#intro-section h1 {
+  margin: 20px 10px;
+  font-size: 36px;
+}
+
+@media (min-width: 576px) {
+  #intro-section h1 {
+    margin: 20px 10px;
+  }
+}
+
+#about-me {
+  background-image: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.5)), url(../../assets/img/group-collab.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 30px 0px;
+}
+
+@media (min-width: 576px) {
+  #about-me {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 40px;
+  }
+}
+
+#call-to-action {
+  padding-bottom: 25px;
+}
+
+@media (min-width: 576px) {
+  #call-to-action {
+    padding-bottom: 40px;
+  }
+}
+
+.projects-clean h2 {
+  font-size: 41px;
+}
+
+.projects-clean {
+  padding: 30px 10px;
+}
+
+@media (min-width: 576px) {
+  .projects-clean {
+    padding: 40px 20px;
+  }
+}
+
+.design-process {
+  padding: 20px 10px;
+}
+
+@media (min-width: 576px) {
+  .design-process {
+    padding: 200px 0;
+  }
+}
+

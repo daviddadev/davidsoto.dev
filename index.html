@@ -2,9 +2,22 @@
 <html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154966273-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154966273-1');
+    </script>
+    <!-- meta data -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>David Portfolio</title>
+    <title>David Soto's Web Developer Portfolio</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
@@ -14,7 +27,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<strong>
+<body>
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
         <div class="container"><a class="navbar-brand" href="#mssg">David/<strong>Soto</strong></a><button
                 data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle
@@ -36,9 +49,8 @@
                     <div class="col-md-12 offset-0 text-center"><img class="img-fluid border rounded-circle"
                             src="assets/img/profile-img.jpg"></div>
                     <div class="col text-center">
-                        <h1>Hi, I'm David</h1>
-                        <p>Hello! my name is&nbsp;<strong>David Soto</strong>. I work as Front End Developer. I have a
-                            passion for pixel perfect, minimal and easy to use interfaces.</p>
+                        <h1>Hello! my name is&nbsp;<strong>David Soto</strong>. I work as Front End Developer. I have a
+                            passion for pixel perfect, minimal and easy to use interfaces.</h1>
                     </div>
                 </div>
                 <div class="text-center"><button onclick="window.location.href = '#mssg';"
@@ -54,12 +66,20 @@
                 <p class="text-center">Some of the work that I love to do. &nbsp;</p>
             </div>
             <div class="row projects">
+                <!-- Project 1 -->
+                <div class="col-sm-6 col-lg-4 item"><a href="http://thetacticaldriver.com/"><img
+                            class="img-fluid" src="assets/img/tacticaldriver-hero.png"></a>
+                    <h3 class="name">The Tactical Driver</h3>
+                    <p class="description">A project to help rideshare drivers maximize their earnings and also this project generates passive income by using referrals and affiliate links.</p>
+                </div>
+                <!-- Project 2 -->
                 <div class="col-sm-6 col-lg-4 item"><a href="https://daviddadev.github.io/apple-website-bss/"><img
                             class="img-fluid" src="assets/img/appless.png"></a>
                     <h3 class="name">Apple Website</h3>
                     <p class="description">This is a mockup site of Apple's home website featuring it's latest products.
                         Take a look around and see how clean it feels.</p>
                 </div>
+                <!-- Project 3 -->
                 <div class="col-sm-6 col-lg-4 item"><a
                         href="https://daviddadev.github.io/bootstrap-tesla-roadster-demo/"><img class="img-fluid"
                             src="assets/img/teslass.png"></a>
@@ -67,12 +87,15 @@
                     <p class="description">This is a mock up site of Tesla's Roadster website. Fully mobile responsive.
                         Take a look around and see how clean it feels.</p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><a href="#"><img class="img-fluid"
+                <!-- Project 4 -->
+                <div class="col-sm-6 col-lg-4 item"><a
+                        href="https://daviddadev.github.io/learn-to-code-landig-page/"><img class="img-fluid"
                             src="assets/img/learntocodess.png"></a>
                     <h3 class="name">Tactical Coder Inc.</h3>
                     <p class="description">Learn to code Landing Page, aims towards a small business project I had in
                         mind. Using the basic stacks of the web: HTML5, CSS3, Bootstrap, and jQuery.</p>
                 </div>
+                <!-- Project 5 -->
                 <div class="col-sm-6 col-lg-4 item"><a href="https://zarvox.com/"><img class="img-fluid"
                             src="assets/img/zarvoxss.png"></a>
                     <h3 class="name">Zarvox</h3>
@@ -80,18 +103,15 @@
                         and other custom murals for all types of events and occasions. Awesome guys to do business with.
                     </p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><a href="https://daviddadev.github.io/mom-pops-pizza-bss/"><img
-                            class="img-fluid" src="assets/img/pizzeriass.png"></a>
-                    <h3 class="name">Mom & Pop's Pizzeria</h3>
-                    <p class="description">A mom and pop pizza shop site. Fully mobile responsive and a simple landing
-                        page with business info and contact information.</p>
-                </div>
-                <div class="col-sm-6 col-lg-4 item"><a href="#"><img class="img-fluid" src="assets/img/candyss.png"></a>
+                <!-- Project 6 -->
+                <div class="col-sm-6 col-lg-4 item"><a href="https://daviddadev.github.io/museum-of-candy/"><img
+                            class="img-fluid" src="assets/img/candyss.png"></a>
                     <h3 class="name">Museum of Candy</h3>
                     <p class="description">A clean and very minimalistic page. I love creating basic simple pages like
                         this. Big fan of the 'less is more' concept.</p>
                 </div>
             </div>
+            <!-- Call to action MY PORTFOLIO section button -->
             <div class="text-center d-flex flex-column justify-content-center align-items-center align-items-sm-center"
                 id="call-to-action">
                 <h4>Like what you see?</h4><button onclick="window.location.href='#mssg';"
@@ -182,8 +202,9 @@
             <p class="copyright">David Soto © 2019</p>
         </footer>
     </div>
+    
+    <!-- Bootstrap and jQuery files -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</strong>
-
-</html>
+</body>
+</html> 

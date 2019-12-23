@@ -1,4 +1,4 @@
-![screenshoot](https://github.com/daviddadev/apple-website-bss/blob/master/assets/img/Screen%20Shot%202019-07-10%20at%204.54.27%20PM.png)
+<!-- ![screenshoot](https://github.com/daviddadev/apple-website-bss/blob/master/assets/img/Screen%20Shot%202019-07-10%20at%204.54.27%20PM.png) -->
 
 # Welcome to DavidDaDev GitHub Page
 
